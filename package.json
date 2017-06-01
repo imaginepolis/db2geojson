@@ -1,0 +1,23 @@
+{
+  "name": "db2geojson",
+  "version": "1.0.0",
+  "description": "Library to create geojson files from a db connection",
+  "main": "db2geojson.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imaginepolis/db2geojson.git"
+  },
+  "author": "Juan Camilo Ibarra <juanibarral@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imaginepolis/db2geojson/issues"
+  },
+  "homepage": "https://github.com/imaginepolis/db2geojson#readme",
+  "dependencies": {
+    "pg": "^6.2.3",
+    "terraformer-wkt-parser": "^1.1.2"
+  }
+}
